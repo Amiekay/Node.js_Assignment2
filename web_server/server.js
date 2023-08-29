@@ -46,7 +46,7 @@ function getPage(req, res) {
 function getRequestedPage(req, res) {
     const file = req.url.split("/")[1];
     const actualPath = path.join(__dirname, file);
-    const page = fs.readFileSync(actualPath);
+    const page = fs.readFileSync(file);
     res.setHeader('content-type', 'text/html');
     res.writeHead(200);
     res.end(page);
