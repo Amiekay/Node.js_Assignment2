@@ -11,5 +11,8 @@
     "url": "Amiekay"
   },
   "author": "Amarachi Kalu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
