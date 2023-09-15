@@ -226,16 +226,6 @@ function deleteItem(req, res) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 // create server
 
 const server = http.createServer(requestHandler)
